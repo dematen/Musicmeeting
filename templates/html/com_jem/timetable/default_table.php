@@ -67,7 +67,14 @@ defined('_JEXEC') or die;
 				<div class="grid"></div>
 				<ul class="showList">
 				<!-- class van de show wordt bepaald door uur, minuten en duur -->
-					<li id="event-01" class="h15 m30 d4">
+				<?php
+					$datetime1 = new DateTime($row->dates.' '.$row->times);
+					$datetime2 = new DateTime($row->dates.' '.$row->endtimes);
+					$interval = $datetime1->diff($datetime2);
+					$d = round(($interval->format('%H') * 60 + $interval->format('%i'))/15);
+				?>
+
+					<li id="event-01" class="h<?php echo $row->h; ?> m<?php echo $row->m; ?> d<?php echo $d; ?>">
 						<?php if (($this->jemsettings->showtitle == 1) && ($this->jemsettings->showdetails == 1)) : ?>
 							<a href="<?php echo JRoute::_(JEMHelperRoute::getEventRoute($row->slug)); ?>" itemprop="url">
 							<span itemprop="name"><?php echo $this->escape($row->title); ?></span>
