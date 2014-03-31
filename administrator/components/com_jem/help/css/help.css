@@ -1,0 +1,153 @@
+body {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+}
+
+a:link {
+	color: #0B55C4;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0B55C4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	color: #1B57B1;
+	font-size: 1.5em;
+	border-left: 25px solid #1B57B1;
+	border-bottom: 1px solid #1B57B1;
+	padding: 0 0 2px 5px;
+}
+
+h2 {
+	margin: 30px 0 10px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	border-bottom: 1px solid #cccccc;
+	color: #1b57b1;
+	width: 100%;
+}
+
+h3 {
+	margin: 20px 0px 10px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	border-bottom: 1px solid #cccccc;
+	color: #1b57b1;
+}
+
+pre {
+	text-align: left;
+	background-color: #fff;
+	border-left: 1px solid #aaa;
+	padding: 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+img.left {
+	float: left;
+	padding-right: 4px;
+}
+
+.box {
+	clear: both;
+	padding: 1px 0;
+}
+
+.hintheader {
+	border-left: 6px solid #ffa909;
+	border-right: 1px solid #e7e7e7;
+	border-top: 1px solid #ffa909;
+	padding: 3px 3px 3px 40px;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 8px auto 0px;
+	color: #000000;
+	background-color: #ffa909;
+	width: 80%;
+}
+
+.hint {
+	border-left: 6px solid #ffa909;
+	border-right: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 3px 3px 20px 40px;
+	margin: 0px auto 8px;
+	color: #465584;
+	background: #ffffff url(../images/icon-32-hint.png) no-repeat 4px 4px;
+	font-size: 12px;
+	width: 80%;
+}
+
+.attentionheader {
+	border-left: 6px solid #FE8282;
+	border-right: 1px solid #e7e7e7;
+	border-top: 1px solid #FE8282;
+	padding: 3px 3px 3px 40px;
+	font-weight: bold;
+	font-size: 13px;
+	margin: 8px auto 0px;
+	color: #000000;
+	background-color: #FE8C8C;
+	width: 80%;
+}
+
+.attention {
+	border-left: 6px solid #FE8282;
+	border-right: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 3px 3px 20px 40px;
+	margin: 0px auto 8px;
+	color: #465584;
+	background: #ffffff url(../images/icon-32-attention.png) no-repeat 4px 4px;
+	font-size: 12px;
+	width: 80%;
+}
+
+table.help {
+	background-color: #ffffff;
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 8px 0 10px 0;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+table.help tr.row0 {
+	background-color: #f9f9f9;
+}
+
+table.help tr.row1 {
+	background-color: #f6f6f6;
+}
+
+table.help th {
+	font-size: 11px;
+	padding: 6px 2px 4px 4px;
+	text-align: left;
+	height: 25px;
+	color: #000;
+	background-color: #eeeeee;
+}
+
+table.help td {
+	padding: 3px;
+	text-align: left;
+}
+
+.close {
+	text-align: center;
+	margin: 30px 0;
+}
